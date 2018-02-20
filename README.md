@@ -1,4 +1,4 @@
-# directory-ch-client
+# directory-companies-house-search-client
 
 [![code-climate-image]][code-climate]
 [![circle-ci-image]][circle-ci]
@@ -14,7 +14,7 @@
 ## Installation
 
 ```shell
-pip install -e git+https://git@github.com/uktrade/directory-ch-client.git@0.1.0#egg=directory-ch-client
+pip install -e git+https://git@github.com/uktrade/directory-companies-house-search-client.git@0.1.0#egg=directory-ch-client
 ```
 
 ## Usage
@@ -31,8 +31,8 @@ client = DirectoryCHClient(
 
 ## Development
 
-    $ git clone https://github.com/uktrade/directory-ch-client
-    $ cd directory-ch-client
+    $ git clone https://github.com/uktrade/directory-companies-house-search-client
+    $ cd directory-companies-house-search-client
     $ make
 
 

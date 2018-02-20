@@ -27,7 +27,7 @@ def get_requirements():
 setup(
     name='directory_ch_client',
     version=get_version(),
-    url='https://github.com/uktrade/directory-ch-client',
+    url='https://github.com/uktrade/directory-companies-house-search-client',
     license='MIT',
     author='Department for International Trade',
     description='Python API client for Export Directory Companies House.',
