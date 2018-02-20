@@ -1,0 +1,4 @@
+django==1.11.5
+requests==2.13.0
+monotonic==1.2
+-e git+https://github.com/uktrade/directory-signature-auth.git@v2.0.0#egg=sigauth
