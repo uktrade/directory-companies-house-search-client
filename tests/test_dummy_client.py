@@ -4,10 +4,10 @@ from directory_ch_client.company import CompanyCHClient
 from directory_ch_client.dummy_client import DummyDirectoryCHClient
 
 
-class DirectoryAPIExternalClientTest(TestCase):
+class DirectoryCHExternalClientTest(TestCase):
 
     def setUp(self):
-        self.base_url = 'https://buyer.com'
+        self.base_url = 'https://ch.com'
         self.api_key = 'test'
         self.client = DummyDirectoryCHClient(
             self.base_url, self.api_key
