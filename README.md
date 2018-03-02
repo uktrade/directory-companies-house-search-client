@@ -23,7 +23,7 @@ pip install -e git+https://git@github.com/uktrade/directory-companies-house-sear
 from directory_ch_client.client import DirectoryCHClient
 
 client = DirectoryCHClient(
-    base_url="https://ch.directory.exportingisgreat.gov.uk",
+    base_url="https://dev.chsearch.directory.uktrade.io",
     api_key=api_key
 )
 ```
