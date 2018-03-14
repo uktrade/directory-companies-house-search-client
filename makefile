@@ -38,6 +38,6 @@ compile_all_requirements: compile_requirements compile_test_requirements
 publish:
 	rm -rf build dist; \
 	python setup.py bdist_wheel; \
-	twine upload --username $$DIRECTORY_PYPI_USERNAME --password $$DIRECTORY_PYPI_PASSWORD dist/*
+	twine upload --username $$DIT_PYPI_USERNAME --password $$DIT_PYPI_PASSWORD dist/*
 
 .PHONY: build clean test_requirements flake8 pytest test publish
