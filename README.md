@@ -14,7 +14,7 @@
 ## Installation
 
 ```shell
-pip install -e git+https://git@github.com/uktrade/directory-companies-house-search-client.git@0.1.0#egg=directory-ch-client
+pip install directory-ch-client
 ```
 
 ## Usage
@@ -34,6 +34,21 @@ client = DirectoryCHClient(
     $ git clone https://github.com/uktrade/directory-companies-house-search-client
     $ cd directory-companies-house-search-client
     $ make
+
+
+## Publish to PyPI
+
+The package should be published to PyPI on merge to master. If you need to do it locally then get the credentials from rattic and add the environment variables to your host machine:
+
+| Setting                     |
+| --------------------------- |
+| DIT_PYPI_USERNAME     |
+| DIT_PYPI_PASSWORD     |
+
+
+Then run the following command:
+
+    make publish
 
 
 [code-climate-image]: https://codeclimate.com/github/uktrade/directory-ch-client/badges/issue_count.svg

@@ -35,4 +35,9 @@ compile_test_requirements:
 
 compile_all_requirements: compile_requirements compile_test_requirements
 
-.PHONY: build clean test_requirements flake8 pytest test
+publish:
+	rm -rf build dist; \
+	python setup.py bdist_wheel; \
+	twine upload --username $$DIT_PYPI_USERNAME --password $$DIT_PYPI_PASSWORD dist/*
+
+.PHONY: build clean test_requirements flake8 pytest test publish
