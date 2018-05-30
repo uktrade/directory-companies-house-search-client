@@ -38,3 +38,11 @@ class CompanyCHClientTest(TestCase):
         request = stub.request_history[0]
 
         assert request.url == 'https://example.com/api/company/1/'
+
+    @stub_request('/api/company/1/officers/', 'get')
+    def test_list_officers(self, stub):
+        self.client.list_officers(company_number=1)
+
+        request = stub.request_history[0]
+
+        assert request.url == 'https://example.com/api/company/1/officers/'

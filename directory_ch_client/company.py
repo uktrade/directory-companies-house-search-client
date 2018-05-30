@@ -7,7 +7,8 @@ class CompanyCHClient(BaseCHClient):
         'search-companies': '/api/search/companies/',
         'registered-address':
             '/api/company/{company_number}/registered-office-address/',
-        'profile': '/api/company/{company_number}/'
+        'profile': '/api/company/{company_number}/',
+        'officers': '/api/company/{company_number}/officers/',
     }
 
     def search_companies(self, query):
@@ -23,7 +24,9 @@ class CompanyCHClient(BaseCHClient):
         return self.get(url)
 
     def get_company_profile(self, company_number):
-        url = self.endpoints['profile'].format(
-            company_number=company_number
-        )
+        url = self.endpoints['profile'].format(company_number=company_number)
+        return self.get(url)
+
+    def list_officers(self, company_number):
+        url = self.endpoints['officers'].format(company_number=company_number)
         return self.get(url)
