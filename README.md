@@ -3,7 +3,8 @@
 [![code-climate-image]][code-climate]
 [![circle-ci-image]][circle-ci]
 [![codecov-image]][codecov]
-[![gemnasium-image]][gemnasium]
+[![pypi-image]][pypi]
+[![snyk-image]][snyk]
 
 **Export Directory internal Companies House search client.**
 
@@ -51,14 +52,18 @@ Then run the following command:
     make publish
 
 
-[code-climate-image]: https://codeclimate.com/github/uktrade/directory-ch-client/badges/issue_count.svg
-[code-climate]: https://codeclimate.com/github/uktrade/directory-ch-client
+[code-climate-image]: https://codeclimate.com/github/uktrade/directory-companies-house-search-client/badges/issue_count.svg
+[code-climate]: https://codeclimate.com/github/uktrade/directory-companies-house-search-client
 
-[circle-ci-image]: https://circleci.com/gh/uktrade/directory-ch-client/tree/master.svg?style=svg
-[circle-ci]: https://circleci.com/gh/uktrade/directory-ch-client/tree/master
+[circle-ci-image]: https://circleci.com/gh/uktrade/directory-companies-house-search-client/tree/master.svg?style=svg
+[circle-ci]: https://circleci.com/gh/uktrade/directory-companies-house-search-client/tree/master
 
-[codecov-image]: https://codecov.io/gh/uktrade/directory-ch-client/branch/master/graph/badge.svg
-[codecov]: https://codecov.io/gh/uktrade/directory-ch-client
+[codecov-image]: https://codecov.io/gh/uktrade/directory-companies-house-search-client/branch/master/graph/badge.svg
+[codecov]: https://codecov.io/gh/uktrade/directory-companies-house-search-client
 
-[gemnasium-image]: https://gemnasium.com/badges/github.com/uktrade/directory-ch-client.svg
-[gemnasium]: https://gemnasium.com/github.com/uktrade/directory-ch-client
+[pypi-image]: https://badge.fury.io/py/directory-ch-client.svg
+[pypi]: https://badge.fury.io/py/directory-ch-client
+
+
+[snyk-image]: https://snyk.io/test/github/uktrade/directory-companies-house-search-client/badge.svg
+[snyk]: https://snyk.io/test/github/uktrade/directory-companies-house-search-client
