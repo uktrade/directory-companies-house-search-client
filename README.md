@@ -1,6 +1,5 @@
 # directory-companies-house-search-client
 
-[![code-climate-image]][code-climate]
 [![circle-ci-image]][circle-ci]
 [![codecov-image]][codecov]
 [![pypi-image]][pypi]
@@ -50,10 +49,6 @@ The package should be published to PyPI on merge to master. If you need to do it
 Then run the following command:
 
     make publish
-
-
-[code-climate-image]: https://codeclimate.com/github/uktrade/directory-companies-house-search-client/badges/issue_count.svg
-[code-climate]: https://codeclimate.com/github/uktrade/directory-companies-house-search-client
 
 [circle-ci-image]: https://circleci.com/gh/uktrade/directory-companies-house-search-client/tree/master.svg?style=svg
 [circle-ci]: https://circleci.com/gh/uktrade/directory-companies-house-search-client/tree/master
