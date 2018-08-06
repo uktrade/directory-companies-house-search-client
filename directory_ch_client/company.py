@@ -1,7 +1,9 @@
-from directory_ch_client.base import BaseCHClient
+from directory_client_core.base import AbstractAPIClient
+
+from directory_ch_client.version import __version__
 
 
-class CompanyCHClient(BaseCHClient):
+class CompanyCHClient(AbstractAPIClient):
 
     endpoints = {
         'search-companies': '/api/search/companies/',
@@ -10,6 +12,7 @@ class CompanyCHClient(BaseCHClient):
         'profile': '/api/company/{company_number}/',
         'officers': '/api/company/{company_number}/officers/',
     }
+    version = __version__
 
     def search_companies(self, query):
         return self.get(

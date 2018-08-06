@@ -29,7 +29,8 @@ setup(
         'django>=1.9,<2.0a1',
         'requests>=2.18.4,<3.0.0',
         'monotonic>=1.2,<3.0',
-        'sigauth>=4.0.1,<5.0.0'
+        'sigauth>=4.0.1,<5.0.0',
+        'directory_client_core>=4.0.2,<5.0.0'
     ],
     classifiers=[
         'Development Status :: 5 - Production/Stable',

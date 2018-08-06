@@ -3,7 +3,6 @@
 [![circle-ci-image]][circle-ci]
 [![codecov-image]][codecov]
 [![pypi-image]][pypi]
-[![snyk-image]][snyk]
 
 **Export Directory internal Companies House search client.**
 
@@ -58,7 +57,3 @@ Then run the following command:
 
 [pypi-image]: https://badge.fury.io/py/directory-ch-client.svg
 [pypi]: https://badge.fury.io/py/directory-ch-client
-
-
-[snyk-image]: https://snyk.io/test/github/uktrade/directory-companies-house-search-client/badge.svg
-[snyk]: https://snyk.io/test/github/uktrade/directory-companies-house-search-client
