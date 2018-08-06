@@ -1,4 +1,0 @@
-django>=1.9,<2.0a1
-requests>=2.18.4,<3.0.0
-monotonic>=1.2,<3.0
-sigauth>=2.1.2,<3.0.0
