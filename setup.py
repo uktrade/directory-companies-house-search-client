@@ -1,12 +1,23 @@
 """
 Export Directory CH client
 """
+import ast
+import re
 from setuptools import setup, find_packages
+
+
+def get_version():
+    pattern = re.compile(r'__version__\s+=\s+(.*)')
+
+    with open('directory_ch_client/version.py', 'rb') as src:
+        return str(ast.literal_eval(
+            pattern.search(src.read().decode('utf-8')).group(1)
+        ))
 
 
 setup(
     name='directory_ch_client',
-    version='0.3.0',
+    version=get_version(),
     url='https://github.com/uktrade/directory-companies-house-search-client',
     license='MIT',
     author='Department for International Trade',
@@ -17,7 +28,6 @@ setup(
     install_requires=[
         'django>=1.9,<2.0a1',
         'requests>=2.18.4,<3.0.0',
-        'monotonic>=1.2,<3.0',
         'monotonic>=1.2,<3.0',
         'sigauth>=4.0.1,<5.0.0'
     ],
