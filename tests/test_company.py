@@ -7,8 +7,13 @@ from tests import stub_request
 class CompanyCHClientTest(TestCase):
 
     def setUp(self):
+        self.base_url = 'https://example.com'
+        self.api_key = 'test'
         self.client = CompanyCHClient(
-            base_url='https://example.com', api_key='test'
+            base_url=self.base_url,
+            api_key=self.api_key,
+            sender_id='test',
+            timeout=5,
         )
 
     @stub_request('https://example.com/api/search/companies/', 'get')

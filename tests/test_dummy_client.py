@@ -10,7 +10,10 @@ class DirectoryCHExternalClientTest(TestCase):
         self.base_url = 'https://ch.com'
         self.api_key = 'test'
         self.client = DummyDirectoryCHClient(
-            self.base_url, self.api_key
+            base_url=self.base_url,
+            api_key=self.api_key,
+            sender_id='test',
+            timeout=5,
         )
 
     def test_company(self):
