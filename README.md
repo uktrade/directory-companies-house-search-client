@@ -1,8 +1,10 @@
 # directory-companies-house-search-client
 
+[![code-climate-image]][code-climate]
 [![circle-ci-image]][circle-ci]
 [![codecov-image]][codecov]
 [![pypi-image]][pypi]
+[![semver-image]][semver]
 
 **Export Directory internal Companies House search client.**
 
@@ -19,12 +21,10 @@ pip install directory-ch-client
 ## Usage
 
 ```python
-from directory_ch_client.client import DirectoryCHClient
+from directory_ch_client.client import client
 
-client = DirectoryCHClient(
-    base_url="https://dev.chsearch.directory.uktrade.io",
-    api_key=api_key
-)
+response = client.company.search_companies(query='Foo Bar')
+
 ```
 
 
@@ -49,6 +49,9 @@ Then run the following command:
 
     make publish
 
+[code-climate-image]: https://codeclimate.com/github/uktrade/directory-companies-house-search-client/badges/issue_count.svg
+[code-climate]: https://codeclimate.com/github/uktrade/directory-companies-house-search-client
+
 [circle-ci-image]: https://circleci.com/gh/uktrade/directory-companies-house-search-client/tree/master.svg?style=svg
 [circle-ci]: https://circleci.com/gh/uktrade/directory-companies-house-search-client/tree/master
 
@@ -57,3 +60,6 @@ Then run the following command:
 
 [pypi-image]: https://badge.fury.io/py/directory-ch-client.svg
 [pypi]: https://badge.fury.io/py/directory-ch-client
+
+[semver-image]: https://img.shields.io/badge/Versioning%20strategy-SemVer-5FBB1C.svg
+[semver]: https://semver.org

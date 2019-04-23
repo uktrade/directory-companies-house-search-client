@@ -27,10 +27,10 @@ setup(
     long_description_content_type='text/markdown',
     include_package_data=True,
     install_requires=[
-        'django>=1.9,<2.0a1',
+        'django>=1.11.20,<2.0a1',
         'requests>=2.18.4,<3.0.0',
         'monotonic>=1.2,<3.0',
-        'directory_client_core>=4.0.2,<5.0.0'
+        'directory_client_core>=5.0.0,<6.0.0'
     ],
     extras_require={
         'test': [
