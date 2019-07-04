@@ -1,6 +1,6 @@
-from directory_client_core.base import AbstractAPIClient
+import pkg_resources
 
-from directory_ch_client.version import __version__
+from directory_client_core.base import AbstractAPIClient
 
 
 class CompanyCHClient(AbstractAPIClient):
@@ -12,7 +12,7 @@ class CompanyCHClient(AbstractAPIClient):
         'profile': '/api/company/{company_number}/',
         'officers': '/api/company/{company_number}/officers/',
     }
-    version = __version__
+    version = pkg_resources.get_distribution(__package__).version
 
     def search_companies(self, query):
         return self.get(
