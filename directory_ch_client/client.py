@@ -1,9 +1,9 @@
+import pkg_resources
+
 from django.conf import settings
 
 from directory_client_core.base import AbstractAPIClient
-
 from directory_ch_client.company import CompanyCHClient
-from directory_ch_client.version import __version__
 
 
 class DirectoryCHClient(AbstractAPIClient):
@@ -12,7 +12,7 @@ class DirectoryCHClient(AbstractAPIClient):
         'ping': 'healthcheck/ping/',
     }
 
-    version = __version__
+    version = pkg_resources.get_distribution(__package__).version
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
