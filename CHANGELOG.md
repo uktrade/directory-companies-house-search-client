@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.0](https://pypi.org/project/directory_ch_client/2.1.0/) (2019-07-18)
+[Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/10/files)
+
+### Implemented enhancements
+- Support Django 1.11.22 through 2.x
+
 ## [2.0.1](https://pypi.org/project/directory_ch_client/2.0.1/) (2019-07-04)
 [Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/9/files)
 
