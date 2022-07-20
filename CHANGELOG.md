@@ -1,4 +1,11 @@
+
 # Changelog
+
+## [2.2.0](https://pypi.org/project/directory_ch_client/2.2.0/) (2019-07-18)
+[Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/11/files)
+
+### Implemented enhancements
+- GLS-313 - codecov patch
 
 ## [2.1.0](https://pypi.org/project/directory_ch_client/2.1.0/) (2019-07-18)
 [Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/10/files)
