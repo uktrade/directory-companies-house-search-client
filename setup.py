@@ -1,9 +1,8 @@
-from setuptools import setup, find_packages
-
+from setuptools import find_packages, setup
 
 setup(
     name="directory_ch_client",
-    version="2.2.0",
+    version="3.0.0",
     url="https://github.com/uktrade/directory-companies-house-search-client",
     license="MIT",
     author="Department for International Trade",
@@ -13,16 +12,16 @@ setup(
     long_description_content_type="text/markdown",
     include_package_data=True,
     install_requires=[
-        "django>=1.11.22,<3.0a1",
+        "django>=1.11.22,<=3.2.15",
         "requests>=2.18.4,<3.0.0",
         "monotonic>=1.2,<3.0",
-        "directory_client_core>=6.1.0,<7.0.0",
+        "directory_client_core>=6.1.0,<8.0.0",
     ],
     extras_require={
         "test": [
-            "pytest==3.0.2",
-            "pytest-cov==2.3.1",
-            "flake8==3.0.4",
+            "pytest==7.1.3",
+            "pytest-cov==3.0.0",
+            "flake8==5.0.4",
             "requests_mock==1.1.0",
             "codecov>=2.0.16",
             "twine>=1.11.0,<2.0.0",
@@ -38,12 +37,14 @@ setup(
         "Framework :: Django :: 2.0",
         "Framework :: Django :: 2.1",
         "Framework :: Django :: 2.2",
+        "Framework :: Django :: 3.2",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Natural Language :: English",
         "Operating System :: OS Independent",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],

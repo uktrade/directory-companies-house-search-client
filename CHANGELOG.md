@@ -1,6 +1,12 @@
 
 # Changelog
 
+## [3.0.0](https://pypi.org/project/directory_ch_client/3.0.0/) (2022-09-07)
+[Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/12/files)
+
+### Implemented enhancements
+- GLS-412 - Upgrade for Django 3.2
+
 ## [2.2.0](https://pypi.org/project/directory_ch_client/2.2.0/) (2019-07-18)
 [Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/11/files)
 
