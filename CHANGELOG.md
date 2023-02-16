@@ -1,7 +1,12 @@
 
 # Changelog
 
-## [3.0.1](https://pypi.org/project/directory_ch_client/3.0.0/) (2022-10-26)
+## [3.0.2](https://pypi.org/project/directory_ch_client/3.0.2/) (2023-02-16)
+[Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/14/files)
+### Implemented enhancements
+- KLS-397 - Upgrade Django to less than 4.0.0
+
+## [3.0.1](https://pypi.org/project/directory_ch_client/3.0.1/) (2022-10-26)
 [Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/13/files)
 
 ### Implemented enhancements
