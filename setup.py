@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="directory_ch_client",
-    version="3.0.2",
+    version="3.0.3",
     url="https://github.com/uktrade/directory-companies-house-search-client",
     license="MIT",
     author="Department for International Trade",
@@ -20,10 +20,11 @@ setup(
     extras_require={
         "test": [
             "pytest==7.1.3",
-            "pytest-cov==3.0.0",
+            "pytest-cov",
+            "pytest-codecov",
+            "GitPython",
             "flake8==5.0.4",
             "requests_mock==1.1.0",
-            "codecov>=2.0.16",
             "twine>=1.11.0,<2.0.0",
             "wheel>=0.31.0,<1.0.0",
             "setuptools>=38.6.0,<39.0.0",
