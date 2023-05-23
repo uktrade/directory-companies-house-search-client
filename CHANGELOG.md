@@ -1,6 +1,11 @@
 
 # Changelog
 
+## [3.1.0](https://pypi.org/project/directory_ch_client/3.1.0/) (2023-05-23)
+[Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/17)
+### Implemented enhancements
+- KLS-622 - Upgrade Django to 4.2.0
+
 ## [3.0.2](https://pypi.org/project/directory_ch_client/3.0.2/) (2023-02-16)
 [Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/14/files)
 ### Implemented enhancements
