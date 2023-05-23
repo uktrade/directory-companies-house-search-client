@@ -1,7 +1,7 @@
 
 # Changelog
 
-## [3.0.2](https://pypi.org/project/directory_ch_client/4.2/) (2023-05-23)
+## [3.1.0](https://pypi.org/project/directory_ch_client/3.1.0/) (2023-05-23)
 [Full Changelog]()
 ### Implemented enhancements
 - KLS-622 - Upgrade Django to 4.2.0
