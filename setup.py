@@ -2,17 +2,25 @@ from setuptools import find_packages, setup
 
 setup(
     name="directory_ch_client",
+<<<<<<< HEAD
     version="3.1.2",
+=======
+    version="4.0.0",
+>>>>>>> master
     url="https://github.com/uktrade/directory-companies-house-search-client",
     license="MIT",
-    author="Department for International Trade",
+    author="Department for Business and Trade",
     description="Python API client for Export Directory Companies House.",
     packages=find_packages(exclude=["tests.*", "tests"]),
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     include_package_data=True,
     install_requires=[
+<<<<<<< HEAD
         "django>=4.2.10,<=5.0",
+=======
+        "django>=4.2,<=4.2.9",
+>>>>>>> master
         "requests>=2.18.4,<3.0.0",
         "monotonic>=1.2,<3.0",
         "directory_client_core>=7.2.12,<8.0.0",
@@ -34,11 +42,6 @@ setup(
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Django",
-        "Framework :: Django :: 1.11",
-        "Framework :: Django :: 2.0",
-        "Framework :: Django :: 2.1",
-        "Framework :: Django :: 2.2",
-        "Framework :: Django :: 3.2",
         "Framework :: Django :: 4.2",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
