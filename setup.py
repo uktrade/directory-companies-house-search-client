@@ -12,7 +12,7 @@ setup(
     long_description_content_type="text/markdown",
     include_package_data=True,
     install_requires=[
-        "django>=4.2.10,<=5.0",
+        "django>=4.2.10,<5.0",
         "requests>=2.18.4,<3.0.0",
         "monotonic>=1.2,<3.0",
         "directory_client_core>=7.2.12,<8.0.0",

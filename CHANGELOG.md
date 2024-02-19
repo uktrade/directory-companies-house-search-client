@@ -1,7 +1,7 @@
 
 # Changelog
 
-## [3.1.2]() (2024-02-19)
+## [4.0.1]() (2024-02-19)
 [Full Changelog]()
 ### Implemented enhancements
 - KLS-622 - Upgrade Django to 4.2.10 Minimum
