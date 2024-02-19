@@ -1,10 +1,10 @@
 
 # Changelog
 
-## [4.0.1]() (2024-02-19)
+## [4.0.1](https://github.com/uktrade/directory-companies-house-search-client/pull/22) (2024-02-19)
 [Full Changelog]()
 ### Implemented enhancements
-- KLS-622 - Upgrade Django to 4.2.10 Minimum
+- KLS-1948 - Upgrade Django to 4.2.10 Minimum
 
 ## [3.1.0](https://pypi.org/project/directory_ch_client/3.1.0/) (2023-05-23)
 [Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/17)
