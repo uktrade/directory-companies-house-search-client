@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="directory_ch_client",
-    version="3.1.1",
+    version="3.1.2",
     url="https://github.com/uktrade/directory-companies-house-search-client",
     license="MIT",
     author="Department for International Trade",
@@ -12,10 +12,10 @@ setup(
     long_description_content_type="text/markdown",
     include_package_data=True,
     install_requires=[
-        "django>=3.2.18,<=4.2",
+        "django>=4.2.10,<=5.0",
         "requests>=2.18.4,<3.0.0",
         "monotonic>=1.2,<3.0",
-        "directory_client_core>=7.2.8,<8.0.0",
+        "directory_client_core>=7.2.12,<8.0.0",
     ],
     extras_require={
         "test": [
