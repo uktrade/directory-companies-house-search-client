@@ -1,6 +1,11 @@
 
 # Changelog
 
+## [4.0.1](https://pypi.org/project/directory_ch_client/4.0.2/) (2024-02-19)
+[Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/23)
+### Implemented repository config
+- POLS-94 Add code-owners file
+
 ## [4.0.1](https://pypi.org/project/directory_ch_client/4.0.1/) (2024-02-19)
 [Full Changelog](https://github.com/uktrade/directory-companies-house-search-client/pull/22)
 ### Implemented enhancements

@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="directory_ch_client",
-    version="4.0.1",
+    version="4.0.2",
     url="https://github.com/uktrade/directory-companies-house-search-client",
     license="MIT",
     author="Department for Business and Trade",
